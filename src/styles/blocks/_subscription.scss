@@ -7,18 +7,18 @@
   min-height: 386px;
   height: 100%;
 
-  background-image: url(../images/subscription/subscription-bg-sm.png);
+  background-image: url(../images/subscription/subscription-bg-sm.webp);
   background-size: cover;
   background-repeat: no-repeat; /* Зображення не буде повторюватися */
   background-position: center;
 
   @include on-tablet {
-    background-image: url(../images/subscription/subscription-bg-md.png);
+    background-image: url(../images/subscription/subscription-bg-md.webp);
   }
 
   @include on-desktop {
     min-height: 550px;
-    background-image: url(../images/subscription/subscription-bg-xl.png);
+    background-image: url(../images/subscription/subscription-bg-xl.webp);
   }
 
   &__container {
