@@ -1,23 +1,11 @@
 <!doctype html>
-<html
-  lang="en"
-  class="page"
->
+<html lang="en" class="page">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>National Art Museum of Ukraine</title>
-    <script
-      src="scripts/main.js"
-      defer
-    ></script>
-    <link
-      rel="preconnect"
-      href="https://fonts.googleapis.com"
-    />
+    <script src="scripts/main.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link
       rel="preconnect"
       href="https://fonts.gstatic.com"
@@ -28,59 +16,36 @@
       rel="stylesheet"
     />
     <link
-      rel="stylesheet"
-      href="./styles/main.scss"
+      rel="preload"
+      href="src/fonts/Roboto-Regular-webfont.woff"
+      as="font"
+      type="font/woff"
+      crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./styles/main.scss" />
     <link
       rel="shortcut icon"
       href="./images/logo.png"
-      type="image/png"
-    />
+      type="image/png" />
   </head>
   <body id="top">
-    <aside
-      class="page__menu menu"
-      id="menu"
-    >
+    <aside class="page__menu menu" id="menu">
       <div class="menu__container">
         <div class="menu__top">
-          <a
-            href="#"
-            class="icon icon--close"
-          ></a>
+          <a href="#" class="icon icon--close"></a>
           <nav class="menu__nav nav">
             <ul class="nav__list">
               <li class="nav__item">
-                <a
-                  href="#gallery"
-                  class="nav__link"
-                >
-                  Галерея
-                </a>
+                <a href="#gallery" class="nav__link"> Галерея </a>
               </li>
               <li class="nav__item">
-                <a
-                  href="#subscription"
-                  class="nav__link"
-                >
-                  Про Нас
-                </a>
+                <a href="#subscription" class="nav__link"> Про Нас </a>
               </li>
               <li class="nav__item">
-                <a
-                  href="#events"
-                  class="nav__link"
-                >
-                  Виставки та події
-                </a>
+                <a href="#events" class="nav__link"> Виставки та події </a>
               </li>
               <li class="nav__item">
-                <a
-                  href="#contacts"
-                  class="nav__link"
-                >
-                  Контакти
-                </a>
+                <a href="#contacts" class="nav__link"> Контакти </a>
               </li>
             </ul>
           </nav>
@@ -121,10 +86,7 @@
 
     <header class="header">
       <div class="header__container">
-        <a
-          href="#menu"
-          class="icon icon--menu"
-        ></a>
+        <a href="#menu" class="icon icon--menu"></a>
         <div class="header__art">
           <h2 class="header__logo">
             na
@@ -134,10 +96,7 @@
         </div>
         <div class="header__info info info__container">
           <h1 class="header__title">Художній музей</h1>
-          <a
-            href="#events"
-            class="header__button button"
-          >
+          <a href="#events" class="header__button button">
             <p class="header__button-text">квитки</p>
             <img
               class="header__button-action button__icon"
@@ -155,10 +114,7 @@
     </header>
 
     <main class="main">
-      <section
-        class="events section"
-        id="events"
-      >
+      <section class="events section" id="events">
         <h2 class="events__title section__title events__container">
           Актуальні події
         </h2>
@@ -236,10 +192,7 @@
         </div>
       </section>
 
-      <section
-        class="gallery section"
-        id="gallery"
-      >
+      <section class="gallery section" id="gallery">
         <h2 class="gallery__title section__title">Галерея</h2>
         <div class="gallery__slider slider">
           <input
@@ -352,10 +305,7 @@
         </div>
       </section>
 
-      <section
-        class="subscription section"
-        id="subscription"
-      >
+      <section class="subscription section" id="subscription">
         <div class="subscription__container">
           <h2 class="subscription__title section__title">Підписка</h2>
           <p class="subscription__text">
@@ -386,16 +336,10 @@
       </section>
     </main>
 
-    <footer
-      class="footer"
-      id="contacts"
-    >
+    <footer class="footer" id="contacts">
       <div class="footer__container">
         <div class="footer__top">
-          <a
-            class="footer__logo"
-            href="#top"
-          >
+          <a class="footer__logo" href="#top">
             na
             <br />
             mu
@@ -425,8 +369,7 @@
                     <rect
                       width="23.9626"
                       height="24"
-                      fill="white"
-                    />
+                      fill="white" />
                   </clippath>
                 </defs>
               </svg>
@@ -517,32 +460,20 @@
               <br />
               Київ, 01001
             </a>
-            <a
-              class="footer__contacts-link"
-              href="tel:+380442781357"
-            >
+            <a class="footer__contacts-link" href="tel:+380442781357">
               факс +38 (044) 278-13-57
             </a>
-            <a
-              class="footer__contacts-link"
-              href="tel:+380442787454"
-            >
+            <a class="footer__contacts-link" href="tel:+380442787454">
               факс +38 (044) 278-74-54
             </a>
-            <a
-              class="footer__contacts-link"
-              href="mailto:info@namu.kiev.ua"
-            >
+            <a class="footer__contacts-link" href="mailto:info@namu.kiev.ua">
               e-mail: info@namu.kiev.ua
             </a>
           </p>
         </div>
 
         <div class="footer__go-up-wrapper">
-          <a
-            class="footer__go-up"
-            href="#top"
-          >
+          <a class="footer__go-up" href="#top">
             <img
               src="./images//icons/arrow_up.png"
               alt="Arrow up"
@@ -554,36 +485,16 @@
         <nav class="footer__nav nav">
           <ul class="nav__list">
             <li class="nav__item">
-              <a
-                href="#gallery"
-                class="nav__link"
-              >
-                Галерея
-              </a>
+              <a href="#gallery" class="nav__link"> Галерея </a>
             </li>
             <li class="nav__item">
-              <a
-                href="#subscription"
-                class="nav__link"
-              >
-                Про Нас
-              </a>
+              <a href="#subscription" class="nav__link"> Про Нас </a>
             </li>
             <li class="nav__item">
-              <a
-                href="#events"
-                class="nav__link"
-              >
-                Виставки та події
-              </a>
+              <a href="#events" class="nav__link"> Виставки та події </a>
             </li>
             <li class="nav__item">
-              <a
-                href="#contacts"
-                class="nav__link"
-              >
-                Контакти
-              </a>
+              <a href="#contacts" class="nav__link"> Контакти </a>
             </li>
           </ul>
         </nav>
