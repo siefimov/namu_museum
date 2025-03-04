@@ -48,7 +48,7 @@ nvm use 20 --version
 
 ```
 git clone https://github.com/siefimov/namu_museum.git
-cd bang_olufsen_landing
+cd namu_museum
 ```
 
 ### 3. Install dependencies
