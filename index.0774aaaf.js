@@ -1,0 +1,2 @@
+var e,n,c=document.querySelector(".slider");c.addEventListener("touchstart",function(n){e=n.changedTouches[0].clientX}),c.addEventListener("touchend",function(c){n=c.changedTouches[0].clientX,function(){if(e-n>100){var c=document.querySelector('input[name="slide"]:checked').nextElementSibling;c&&(c.checked=!0)}else if(e-n<-100){var t=document.querySelector('input[name="slide"]:checked').previousElementSibling;t&&(t.checked=!0)}}()});
+//# sourceMappingURL=index.0774aaaf.js.map
